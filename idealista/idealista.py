@@ -34,10 +34,9 @@ def getIdealistData():
 def addInfoCoord():
     import googlemaps
     import os
-    key = "AIzaSyBogRB6YkamhIRhV7zxryo3yvCH5_FLZ5E" #javgarber
-    ##key = "AIzaSyCS4XFKoYwJZE5ub82IKiEQTg8y4mPqi8Q" #javier.garcia.bernardo
-    ##key = "AIzaSyDnijofJryUUbfBBXyKAZYLTwsM7UPalF0" #btcjgb00
-    ##key = "AIzaSyBzpUToXSGMshupQPKzJ_wMSpF6uPDDgVI" #mesiaca
+    #key = "AIzaSyCS4XFKoYwJZQ" #javier.garcia.bernardo
+    ##key = "AIzaSyDnijofJryUUbfBBXyKAZ7UPalF0" #btcjgb00
+    ##key = "AIzaSyBzpUToXSGuPDDgVI" 
     gmaps = googlemaps.Client(key=key)
 
 
